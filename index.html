@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop on Distributed DNN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('neural-network-8684318_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #111;
+    backdrop-filter: brightness(1.05) blur(2px);
+  }
+  header, main, nav {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    flex: 1 0 auto;
+  }
+  h1, h2 {
+    color: #2c3e50;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  main {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  @media screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      gap: 8px;
+    }
+    nav a {
+      flex: 1 0 100%;
+      text-align: center;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Computing with Deep Neural Networks in Distributed Framework</h1>
+    
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cfp.html">Call for Papers</a>
+    <a href="program.html">Workshop Program</a>
+    <a href="papers.html">Accepted Papers</a>
+    <a href="registration.html">Registration Details</a>
+    <a href="submission.html">Submission</a>
+    <a href="committee.html">Committee</a>
+  </nav>
+  <main>
+
+    <h2 style="text-align: center;">Workshop on Computing with Deep Neural Networks in Distributed Framework</h2>
+    <h2 style="text-align: center;">in conjunction with <a href="https://sites.google.com/view/icdcn2026/home">ICDCN 2026</a></h2>
+    <h2 style="text-align: center;">5th January, 2026   ||  Nara, Japan</h2>
+
+
+    <h2>About the Workshop</h2>
+    <p style="text-align: justify">Deep Neural Networks (DNNs) have shown remarkable efficiency in a diverse range of applications. DNNs can process and represent data in a high-dimensional space, capturing complex patterns in it, and have been successfully used in various fields of research, such as computer vision, natural language processing and healthcare, among others. As their applicability expands, the complexity of these models has increased significantly. On the other hand, advancement in low-cost and high-capacity data acquisition technologies have led to an exponential growth in the volume of available data. Thus, the increasing amount and size of nonlinear data have made it necessary to use deeper and more complex neural network models. Consequently, extensive computational resources are required for training these large-scale DNNs which involve expensive computation time and hardware resources. </p>
+
+    <p style="text-align: justify">The rapid and exponentially growing computational demands of DNN training have led to the development of specialized hardware accelerators, such as Google Tensor Processing Units (TPUs), NVIDIA Tesla GPUs, and Xilinx Alveo FPGA-based accelerators, among others. Despite the efficiency of these high-performance computing solutions, their high cost presents a significant barrier to accessibility. As an alternative, distributed training across multiple commodity hardware systems, like PCs, small Workstations, and Laptops, has gained relevance, which poses as a cost-effective solution compared to individual high-end servers. However, transitioning from conventional single-machine deep learning to distributed training paradigms remains a challenge, and requires a great deal of effort in developing more cost-effective parallelization strategies to facilitate the efficient deployment of distributed deep learning models. Parallelization strategies can broadly be classified into two categories, such as data parallelism and model parallelism. </p>
+
+    <p style="text-align: justify">Various parallelization strategies have been proposed to address the problems, including data parallelism, tensor parallelism, pipeline parallelism, and context parallelism, among others. There exist several issues in these parallelism strategies, which include staleness of weights, lack of optimal partitioning of the networks, expensiveness of the parallelization techniques in terms of DNN training time, device-to-device communication time and memory footprints, unbalanced load to the accelerators, and under-utilization of the resources. Moreover, application specificness or lack of generalizability of the parallelization techniques are the commonly occurring problems in this domain.</p>
+
+    <p style="text-align: justify">Thus, there exist several research challenges in the above strategies of parallelism for computing with deep neural networks under distributed framework. In this workshop, we will delve into the latest advances in parallelization technologies designed to address these challenges. The workshop will also highlight the applications developed using the modern distributed computing systems. Presentation of contributory papers and a panel discussion will be organized in this regard. One Keynote/Invited talk is also planning to be organized.</p>
+
+
+
+  </main>
+</body>
+</html>
